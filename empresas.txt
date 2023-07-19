@@ -1,0 +1,16 @@
+agropartes:
+metalurgica gerar 
+puma hidraulica
+cadenas crc
+
+fundicion:
+
+maquinas agricolas:
+geronzi sa  
+ombu sa 
+
+plasticos:
+Industrias CAS
+
+tratamientos termicos:
+

@@ -1,0 +1,82 @@
+
+.links{ 
+    width: 200px;
+     height: 200px;
+border-radius: 50px;}
+
+.contenedor2{
+  background-color: green;
+  text-align: center;}
+  .titulo{ 
+  background-color: green;
+ 
+}
+.procesos{ 
+background-color: rgb(138, 138, 138);
+justify-content: center;
+display: flex;
+flex-direction: row;
+align-items: center;
+border-radius: 10px;
+}
+
+.infofundicion{
+  background-color: rgb(199, 2, 2);
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10px;
+}
+
+
+ .ombu2{ 
+  background-color: red
+  
+}
+
+.colombu1{
+background-color: green
+}
+
+.direcciongerar{
+  background-color: green;
+  
+}
+
+
+
+
+.row1{
+  background-color: rgb(2, 128, 0);
+ 
+}
+
+.imgbagual1{
+  
+  height: 200px; 
+  width: 200px; 
+  border-radius: 50px;
+}
+
+.fundicionproducto{
+  height: 200px; 
+  width: 200px; 
+  border-radius: 50px;
+  background-color: rgb(151, 151, 151);
+  
+}
+.bodyf{
+ background-color: antiquewhite;
+}
+
+
+@media screen and (max-width:600px){
+
+  .links{flex-direction: column;}
+  .titulo{flex-direction: column;}
+  .procesos{flex-direction: column;}
+  .row{flex-direction: column;}
+  .bodyf{flex-direction: column;}
+  .cartel{flex-direction: column;}
+}
