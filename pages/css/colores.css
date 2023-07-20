@@ -6,12 +6,12 @@ border-radius: 50px;}
 
 .contenedor2{
   background-color: green;
-  text-align: center;}
-  .titulo{ 
-  background-color: green;
- 
+  text-align: center;
 }
-.procesos{ 
+
+
+
+  .procesos{ 
 background-color: rgb(138, 138, 138);
 justify-content: center;
 display: flex;
@@ -66,17 +66,64 @@ background-color: green
   background-color: rgb(151, 151, 151);
   
 }
-.bodyf{
- background-color: antiquewhite;
+
+header{
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  background-color: aqua;
+  align-items: center;
+  padding: 10px;
+}
+body{
+  font-family: sans-serif;
+  margin: 0;
+  background-color: antiquewhite;
+}
+.body1{
+  font-family: sans-serif;
+  margin: 0;
+  background-color: antiquewhite;
+}
+.logo{
+align-items: center;
+  display: flex;
+}
+.logo img{
+  margin-right: 10px;
+    height: 50px;
+  }
+.container{
+max-width: 1200px;
+margin: 0 auto;
+}
+.footer{
+background-color: rgb(0, 191, 255);
+padding: 80px 0;
+}
+.footer-row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-links h4{
+font-size: 20px;
+color: white;
+margin-bottom: 25px;
+font-weight: 500px;
+border-bottom: 2px solid blue;
+padding-bottom: 10px;
+display: inline-block;
+}
+.footer-links ul li a{
+font-size: 18px;
+text-decoration: none;
+color: white;
+display: block;
+margin-bottom: 15px;
+transition: all.3s ease;
 }
 
-
-@media screen and (max-width:600px){
-
-  .links{flex-direction: column;}
-  .titulo{flex-direction: column;}
-  .procesos{flex-direction: column;}
-  .row{flex-direction: column;}
-  .bodyf{flex-direction: column;}
-  .cartel{flex-direction: column;}
+.footer-links ul li a:hover{
+color: white;
+padding-left: 6px;
 }
