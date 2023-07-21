@@ -1,0 +1,33 @@
+.contenedor2 {
+  background-color: $primary-color;
+  text-align: center;
+}
+
+.procesos, .infofundicion {
+  background-color: $accent-color;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: $border-radius-small;
+}
+
+.ombu2 {
+  background-color: $highlight-color;
+}
+
+.colombu1 {
+  background-color: $primary-color;
+}
+
+.row1 {
+  background-color: $dark-color;
+}
+.procesos, .infofundicion {
+  background-color: $accent-color;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: $border-radius-small;
+}

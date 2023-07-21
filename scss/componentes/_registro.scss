@@ -1,0 +1,29 @@
+.form-register {
+    width: 400px;
+    background-color: blue;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: white;
+  
+    .controls {
+      width: 100%;
+      background-color: lightblue;
+      padding: 10px;
+      border-radius: 4px;
+      margin-bottom: 16px;
+      border: 1px solid lightskyblue;
+      font-size: 18px;
+    }
+  }
+  
+  .botom {
+    width: 100%;
+    background-color: rgba(17, 255, 0, 0.557);
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }

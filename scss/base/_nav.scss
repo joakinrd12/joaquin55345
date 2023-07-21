@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: aqua;
+    align-items: center;
+    padding: 10px;
+  }
+  .logo {
+    align-items: center;
+    display: flex;
+  
+    img {
+      margin-right: 10px;
+      height: 50px;
+    }
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
